@@ -16,6 +16,25 @@ function launch(config) {
 
   var controlPanel = div(
     div(
+      DAM.makeSelect({
+        title: "Initial distribution",
+        options: [
+          {
+            text: 'Random',
+            value: 'random'
+          },
+          {
+            text: 'Griddy',
+            value: 'griddy'
+          }
+        ],
+        onchange: function(option) {
+          gewgaw.setInitialDistribution(option.value);
+          gewgaw.reset();
+        }
+      })
+    ),
+    div(
       button("Re-roll", {
         onclick: function() {
           gewgaw.reset();

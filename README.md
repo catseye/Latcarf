@@ -1,9 +1,11 @@
 Latcarf
 =======
 
-![screenshot](images/latcarf1.png?raw=true)
+_Try it online_ [@ catseye.tc](https://catseye.tc/installation/Latcarf)
+| _See also:_ [Maze Clouds](https://github.com/catseye/Maze-Clouds)
+∘ [Erratic Turtle Graphics](https://github.com/catseye/Erratic-Turtle-Graphics)
 
-_Try it online [here](https://catseye.tc/installation/Latcarf)._
+![screenshot](images/latcarf1.png?raw=true)
 
 This is a gewgaw from an idea I had in (I think) 2017 or 2018,
 which was this:

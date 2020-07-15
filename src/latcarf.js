@@ -5,7 +5,12 @@ Latcarf = function() {
     this.init = function(cfg) {
         this.canvas = cfg.canvas;
         this.ctx = this.canvas.getContext('2d');
+        this.initialDistribution = cfg.initialDistribution || 'random';
         this.start();
+    };
+
+    this.setInitialDistribution = function(initialDistribution) {
+        this.initialDistribution = initialDistribution;
     };
 
     this.start = function() {
@@ -13,12 +18,26 @@ Latcarf = function() {
 
         // add many small objects
         for (var i = 0; i < 100; i++) {
-            var nobj = {
-                x: Math.floor(Math.random() * this.canvas.width),
-                y: Math.floor(Math.random() * this.canvas.height),
-                r: 2,
-                connection: null
-            };
+            var nobj;
+            if (this.initialDistribution === 'random') {
+                nobj = {
+                    x: Math.floor(Math.random() * this.canvas.width),
+                    y: Math.floor(Math.random() * this.canvas.height),
+                    r: 2,
+                    connection: null
+                };
+            } else if (this.initialDistribution === 'griddy') {
+                var widthU = this.canvas.width * 0.10;
+                var heightU = this.canvas.height * 0.10;
+                var xerror = Math.floor(Math.random() * widthU / 2) - (widthU / 4);
+                var yerror = Math.floor(Math.random() * heightU / 2) - (heightU / 4);
+                nobj = {
+                    x: (i % 10) * widthU + widthU / 2 + xerror,
+                    y: Math.floor(i / 10) * heightU + heightU / 2 + yerror,
+                    r: 2,
+                    connection: null
+                };
+            }
             this.objects.push(nobj);
         }
 
