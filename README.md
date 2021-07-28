@@ -20,4 +20,11 @@ into larger shapes, and connect those into even larger shapes...
 
 Latcarf was an attempt to implement a bottom-up fractal such as this.
 
+The first implementation of Latcarf (which we will call version 1.0) was
+located in the [HTML5 Gewgaws distribution][].  This version was cleaned
+up and adapted to use [DAM][], and that is the version in this repository
+(which we will call version 1.1 or later).
+
+[HTML5 Gewgaws distribution]: https://catseye.tc/distribution/HTML5%20Gewgaws%20distribution
+[DAM]: https://catseye.tc/node/DAM
 [Koch snowflake]: https://en.wikipedia.org/wiki/Koch_snowflake
