@@ -4,6 +4,7 @@ Latcarf
 _Try it online_ [@ catseye.tc](https://catseye.tc/installation/Latcarf)
 | _See also:_ [Maze Clouds](https://github.com/catseye/Maze-Clouds#readme)
 ∘ [Erratic Turtle Graphics](https://github.com/catseye/Erratic-Turtle-Graphics#readme)
+∘ [Kolakoski Kurve](https://github.com/catseye/Kolakoski-Kurve#readme)
 
 ![screenshot](images/latcarf1.png?raw=true)
 
