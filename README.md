@@ -2,9 +2,9 @@ Latcarf
 =======
 
 _Try it online_ [@ catseye.tc](https://catseye.tc/installation/Latcarf)
-| _See also:_ [Maze Clouds](https://github.com/catseye/Maze-Clouds#readme)
-∘ [Erratic Turtle Graphics](https://github.com/catseye/Erratic-Turtle-Graphics#readme)
-∘ [Kolakoski Kurve](https://github.com/catseye/Kolakoski-Kurve#readme)
+| _See also:_ [Maze Clouds](https://codeberg.org/catseye/Maze-Clouds#maze-clouds)
+∘ [Erratic Turtle Graphics](https://codeberg.org/catseye/Erratic-Turtle-Graphics#erratic-turtle-graphics)
+∘ [Kolakoski Kurve](https://codeberg.org/catseye/Kolakoski-Kurve#kolakoski-kurve)
 
 ![screenshot](images/latcarf1.png?raw=true)
 
